@@ -1,4 +1,5 @@
 # wincoin
 sudo apt update
-wget https://github.com/xmrig/xmrig/releases/download/v5.11.3/xmrig-5.11.3-xenial-x64.tar.gz && tar -zxf xmrig-5.11.3-xenial-x64.tar.gz && cd xmrig-5.11.3 
-./xmrig --donate-level 5 -o rx.unmineable.com:3333 -u WIN:TKHBwLzHc383hGpLSEfnpLPdZDL72WD6Gn.samirpechir -p x -k -a rx/0
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u wallet.worke -p x --cpu 3
